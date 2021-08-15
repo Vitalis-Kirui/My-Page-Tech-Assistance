@@ -1,8 +1,8 @@
-*{
+* {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-html{
+html {
     width: 100%;
 }
 
@@ -27,13 +27,13 @@ nav li {
     justify-content: space-between;
 }
 
-.name{
+.name {
     font-weight: 600;
     font-size: 24px;
     color: #04550C;
 }
 
-nav ul a{
+nav ul a {
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
@@ -49,3 +49,122 @@ nav ul a{
 }
 
 /* End of Navigation Bar stylings */
+
+/* Team of technicians styles */
+
+.technicianTeam {
+    padding: 20px;
+    background-color: #F3E5E5;
+}
+
+h1 {
+    font-size: 600;
+    color: #002993;
+}
+
+.technicianTeam p {
+    font-size: 25px;
+}
+
+.techDetails {
+    text-align: start;
+    font-weight: 900;
+}
+
+.techDetails ul li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.techDetails ul {
+    padding-top: 20px;
+}
+
+.techDetails img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+button {
+    background-color: #444868;
+    color: yellow;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 23px;
+    padding: 8px;
+    padding-top: 12px;
+    
+
+}
+
+.details {
+    color: blue;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+#reviewer {
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.reviewerName {
+    color: darkmagenta;
+}
+
+.reviews1, .reviews2, .reviews3{
+    display: none;
+}
+
+/* .reviewItself {
+    text-align: center;
+} */
+
+/* form styles */
+
+.submitForm{
+    background-color: darkslategrey;
+    color: yellow;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.hireForm1, .hireForm2, .hireForm3{
+    display: none;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* end of form styles */
+
+/* footer styles */
+
+footer{
+    /* width: 100%; */
+    background-color: #9F9090;
+    border:1px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#header1 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#112011;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+#rights {
+    padding-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
